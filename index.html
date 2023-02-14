@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+    <title>Portfolio</title>
+    <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+</head>
+<body>
+    <header class="cabecalho">
+        <nav id="cabecalho1" class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="certificado.html">Certificado</a>
+            <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="titulo-destaque">com um Front-end de qualidade!</strong></h1>
+            <p class="apresentacao__conteudo__texto">Olá! Me chamo <strong class="titulo-destaque">Gustavo Zambeli</strong>, desenvolvedor Front-end com especialidade em HTML e CSS, estou disposto a criar seus sites como método de estudo e aprendizado. Vamos conversar?</p>
+            <div class="apresentacao__links">
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a class="apresentacao__links__navegacao" href="https://www.instagram.com/guustavozm/">
+                    <img src="./assets/instagram.png" alt="logo instagram"> Instagram</a>
+                <a class="apresentacao__links__navegacao" href="https://github.com/Zambeli"> <img src="./assets/github.png" alt="logo github"> Github</a>
+                <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/gustavo-zambeli-1163b6265/"> <img src="./assets/linkedin.png" alt="logo linkedin">Linkedin</a>
+            </div>           
+        </section>
+        <img class="imagem-principal" src="./assets/eu 2.svg" alt="imagem-logo">
+    </main>
+     <script>
+        function clickMenu() {
+            cabecalho1.style.display
+        }
+     </script>
+    <footer class="rodape">
+        <p>Desenvolvido por Zambeli.</p>
+        <img class="imagem-rodape" src="./assets/Guga_zinza_preto.png" alt="">
+    </footer>
+</body>
+</html>
